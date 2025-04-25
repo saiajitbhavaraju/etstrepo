@@ -1,15 +1,17 @@
-/* @tailwind base; */
-/* @tailwind components; */
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
-@import "tailwindcss/preflight";
 /* Custom styles */
 
-.grid {
-  @apply flex flex-col;
+@layer components {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .row {
-  @apply flex;
+  display: flex;
 }
 
 .node {
