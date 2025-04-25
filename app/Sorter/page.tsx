@@ -1,6 +1,6 @@
 "use client";
 
-import SorterMain from "@/app/components/SorterMain";
+import SorterMain from "@/components/SorterMain";
 
 
 export default function Home() {

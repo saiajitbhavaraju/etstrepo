@@ -1,0 +1,35 @@
+/* @tailwind base; */
+/* @tailwind components; */
+@tailwind utilities;
+@import "tailwindcss/preflight";
+/* Custom styles */
+
+.grid {
+  @apply flex flex-col;
+}
+
+.row {
+  @apply flex;
+}
+
+.node {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.start {
+  background-color: green;
+}
+
+.end {
+  background-color: red;
+}
+
+.visited {
+  background-color: lightblue;
+}
+
+.path {
+  background-color: yellow;
+}

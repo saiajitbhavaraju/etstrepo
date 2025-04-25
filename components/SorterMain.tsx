@@ -1,10 +1,10 @@
 "use client";
 
 import { useState, useEffect, useCallback } from 'react';
-import { mergeAnimationcode } from '@/app/components/AnimationAlgos/mergeAni';
-import { quickSortAnimationcode } from "@/app/components/AnimationAlgos/quickAni";
-import { bubbleAnimationcode } from "@/app/components/AnimationAlgos/bubbleAni";
-import { insertAnimationcode } from "@/app/components/AnimationAlgos/insertionAni";
+import { mergeAnimationcode } from '@/components/AnimationAlgos/mergeAni';
+import { quickSortAnimationcode } from "@/components/AnimationAlgos/quickAni";
+import { bubbleAnimationcode } from "@/components/AnimationAlgos/bubbleAni";
+import { insertAnimationcode } from "@/components/AnimationAlgos/insertionAni";
 import { useRouter } from "next/navigation";
 
 const ANIMATION_SPEED: number = 1;

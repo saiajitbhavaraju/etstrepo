@@ -1,4 +1,4 @@
-import { Node } from '@/app/components/node';
+import { Node } from '@/components/node';
 
 export const dijkstra = (
     grid: Node[][],

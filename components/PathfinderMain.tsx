@@ -1,7 +1,7 @@
 // pathfinder.tsx
 import React, { useState, useEffect } from 'react';
-import { Node } from '@/app/components/node';
-import { dijkstra } from '@/app/components/DijkstraAni';
+import { Node } from '@/components/node';
+import { dijkstra } from '@/components/DijkstraAni';
 
 
 const ANIMATION_SPEED = 10;

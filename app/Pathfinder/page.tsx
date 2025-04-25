@@ -1,6 +1,6 @@
 "use client";
 
-import PathfinderMain from "@/app/components/PathfinderMain";
+import PathfinderMain from "@/components/PathfinderMain";
 export default function Home() {
   return (
     <div className="home">
